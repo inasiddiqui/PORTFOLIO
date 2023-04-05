@@ -92,7 +92,25 @@ body{
     
   }
   
-  
+  #spin {
+    color:red;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 3s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:" Graphic-design"; }
+    10% { content:"Art-direction"; }
+    20% { content:"Publications"; }
+    30% { content:"Identity"; }
+    40% { content:"Branding"; }
+    50% { content: "User-Experience"; }
+    60% { content: "Research"; }
+    70% { content: "Interface Design"; }
+    80% { content: "Illustration"; }
+    90% { content: "Advertising"; }
+  }
 
 
 
