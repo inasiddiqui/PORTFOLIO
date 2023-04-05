@@ -59,11 +59,11 @@ body{
   .flex-item-left {
     margin-left: 100px;
     padding: 10px;
-    flex: 50%;
+    flex: 100%;
   }
 
   .text{
-    font-size: 42px;
+    font-size: 32px;
     color: rgb(202, 77, 108);
     text-align: left;
   }
@@ -73,9 +73,10 @@ body{
     cursor:cell;
   }
   .flex-item-right {
-    background-color: dodgerblue;
+    
     padding: 10px;
     flex: 50%;
+    visibility: hidden;
     
   }
 
@@ -83,10 +84,6 @@ body{
     display: block;
     object-fit: contain;
     max-width: 300px;
-    
-    
-    
-
   }
 
   .line{
