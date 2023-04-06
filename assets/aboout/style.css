@@ -110,6 +110,34 @@ font-style: normal;
 
 
 
+
+
+
+
+
+@media (max-width: 960px) {
+  :root {
+    font-size: 9px;
+  }
+
+  .project-grid {
+    grid-row-gap: 16rem;
+  }
+  .project-grid a h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1.15rem;
+  }
+  .project-grid a {
+    -ms-grid-column-span: 3;
+    grid-column: span 3;
+  }
+}
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
 
     .topnav.responsive {position: relative;}
@@ -134,5 +162,9 @@ font-style: normal;
     
        
     }
-
+    :root {
+      font-size: 8px;
+      --padding: 2rem;
+    }
+ 
 }
