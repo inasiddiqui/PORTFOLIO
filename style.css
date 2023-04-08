@@ -10,6 +10,17 @@ body{
 }
 
 
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #F8F880;
@@ -39,6 +50,8 @@ body{
   .topnav .icon {
     display: none;
   }
+
+
   .heading{
     margin-top: 50px;
     font-size: 72px;
@@ -54,6 +67,7 @@ body{
 .flex-container {
     display: flex;
     flex-direction: row;
+    width: 100%;
     
   }
   
@@ -61,11 +75,12 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     padding: 10px;
-    flex: 100%;
+    width: 100%;
+  
   }
 
   .text{
-    font-size: 32px;
+    font-size: 36px;
     color: rgb(202, 77, 108);
     text-align: left;
   }
@@ -355,7 +370,8 @@ color: rgb(219, 234, 82);
 
       .flex-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        width: 100%;
         
       }
       
@@ -363,11 +379,11 @@ color: rgb(219, 234, 82);
         margin-left: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
-        flex: 100%;
+      
       }
     
       .text{
-        font-size: 32px;
+        font-size: 24px;
         color: rgb(223, 81, 117);
         text-align: left;
       }
@@ -388,6 +404,8 @@ color: rgb(219, 234, 82);
     
       .line{
         border-top: 1px solid rgb(223, 81, 117);
+        padding-left: 10px;
+        padding-right: 10px;
         
         
       }

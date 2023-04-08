@@ -1,5 +1,5 @@
 body{
-    background-color: #d8b13a;
+    background-color: #aca357;
     font-family: 'EB Garamond', serif;
     margin: 0px;
 }
@@ -20,12 +20,12 @@ body{
   }
   
   .topnav a:hover {
-    background-color: #EACF85;
+    background-color: #aca357;
     color: black;
   }
   
   .topnav a.active {
-    background-color: #EACF85;
+    background-color: #aca357;
     color: rgb(0, 0, 0);
   }
   
@@ -46,7 +46,7 @@ body{
     font-size: 120px;
     font-weight: 400;
     margin-right: 50px;
-    color: #EACF85;
+    color: #d4223d;
     line-height: 1.25;
     margin-bottom: 36px;
     width: auto;
@@ -55,7 +55,7 @@ body{
 .next-project{
     font-size: 36px;
     font-weight: 400;
-    color: #EACF85;
+    color: #d4223d;
     padding-top: 136px;
     padding-bottom: 36px;
     text-decoration: none;
@@ -64,7 +64,7 @@ body{
 
 .subhead{
     font-size: 16px;
-    color: #EACF85;
+    color: #d4223d;
     max-width: 60%;
     padding-top: 36px;
     padding-bottom: 36px;
@@ -75,7 +75,7 @@ body{
 }
 
 .line{
-    border-top: 1px solid #EACF85;
+    border-top: 1px solid #d4223d;;
     margin-left: 100px;
     margin-right: 100px;
     
@@ -96,7 +96,7 @@ body{
   .grid-items{
     
     font-size: 16px;
-    color: #EACF85;
+    color: #d4223d;
    
   }
 
@@ -132,7 +132,7 @@ footer {
   height: auto;
   width: 100%;
 padding-top: 40px;
-color: #9173a2;
+color: #d4223d;
   }
   
   .footer-content {
