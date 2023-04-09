@@ -30,7 +30,7 @@ body{
 .topnav a {
     float: left;
     display: block;
-    color: #000000;
+    color: var(--main-txt-color);
     text-align: center;
     padding: 14px 3%;
     text-decoration: none;
@@ -38,13 +38,13 @@ body{
   }
   
   .topnav a:hover {
-    background-color: rgb(255, 208, 0);
-    color: black;
+    background-color: var(--main-txt-color);
+    color: var(--main-bg-color);
   }
   
   .topnav a.active {
-    background-color: #d4223d;
-    color: rgb(0, 0, 0);
+    background-color: var(--main-txt-color);
+    color: var(--main-bg-color);
   }
   
   .topnav .icon {

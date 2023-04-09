@@ -29,21 +29,21 @@ body{
 .topnav a {
     float: left;
     display: block;
-    color: #000000;
+    color: var(--main-txt-color);
     text-align: center;
-    padding: 14px 50px;
+    padding: 14px 3%;
     text-decoration: none;
     font-size: 17px;
   }
   
   .topnav a:hover {
-    background-color: rgb(192, 192, 192);
-    color: black;
+    background-color: var(--main-txt-color);
+    color: var(--main-bg-color);
   }
   
   .topnav a.active {
     background-color: var(--main-txt-color);
-    color: rgb(0, 0, 0);
+    color: var(--main-bg-color);
   }
   
   .topnav .icon {
@@ -70,7 +70,7 @@ body{
     width: auto;
 }
 
-.next-project{
+.next-project a{
     font-size: 16px;
     font-weight: 400;
     color: var(--main-txt-color);
@@ -201,7 +201,7 @@ color: #beb562;
   }
   
   .socials a:hover i {
-    color: black;
+    color: white;
   }
   
   .footer-bottom {
@@ -230,7 +230,7 @@ color: #beb562;
   
   
   #myBtn {
-    display: none;
+    display: inline;
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -238,8 +238,8 @@ color: #beb562;
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: rgb(31, 31, 31);
-    color: white;
+    background-color: var(--main-txt-color);
+    color: var(--main-bg-color);
     cursor: pointer;
     padding: 15px;
     border-radius: 2px;
