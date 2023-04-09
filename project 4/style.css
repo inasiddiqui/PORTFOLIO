@@ -1,13 +1,12 @@
 body{
-    background-color: #beb562;
-    color: #d4223d;
+    background-color: var(--main-bg-color);
     font-family: 'EB Garamond', serif;
     margin: 0px;
 }
 
 :root {
-  --main-bg-color: #beb562;
-  --main-txt-color: #d4223d;
+  --main-bg-color: #efdb41;
+  --main-txt-color: #3f3f3f;
   --main-padding: 15px;
 }
 .sticky {
@@ -22,8 +21,8 @@ body{
     overflow: hidden;
     position: sticky;
     margin-left: 0;
-    z-index: 100;
     background-color: var(--main-bg-color);
+    z-index: 100;
     
   }
 
@@ -32,31 +31,24 @@ body{
     display: block;
     color: #000000;
     text-align: center;
-    padding: 14px 3%;
+    padding: 14px 50px;
     text-decoration: none;
     font-size: 17px;
   }
   
   .topnav a:hover {
-    background-color: rgb(255, 208, 0);
+    background-color: rgb(192, 192, 192);
     color: black;
   }
   
   .topnav a.active {
-    background-color: #d4223d;
+    background-color: var(--main-txt-color);
     color: rgb(0, 0, 0);
   }
   
   .topnav .icon {
     display: none;
   }
-  .sticky {
-
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
-    }
 
   .top{
     margin-left: 8%;
@@ -78,7 +70,7 @@ body{
     width: auto;
 }
 
-.next-project a{
+.next-project{
     font-size: 16px;
     font-weight: 400;
     color: var(--main-txt-color);
@@ -151,7 +143,7 @@ footer {
     bottom: 0;
   left: 0;
   right: 0;
-  background:  #d4223d;
+  background:  var(--main-txt-color);
   height: auto;
   width: 100%;
 padding-top: 50px;
@@ -213,7 +205,7 @@ color: #beb562;
   }
   
   .footer-bottom {
-    background:  #d4223d;
+    background:  var(--main-txt-color);
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 100px;
@@ -227,7 +219,7 @@ color: #beb562;
   }
   
   .footer-bottom p a {
-    color: #beb562;
+    color: var(--main-bg-color);
     font-size: 16px;
     text-decoration: none;
   }
@@ -238,7 +230,7 @@ color: #beb562;
   
   
   #myBtn {
-    display: block;
+    display: none;
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -246,8 +238,8 @@ color: #beb562;
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: var(--main-txt-color);
-    color: var(--main-bg-color);
+    background-color: rgb(31, 31, 31);
+    color: white;
     cursor: pointer;
     padding: 15px;
     border-radius: 2px;
@@ -277,7 +269,7 @@ color: #beb562;
 
     .topnav {
       overflow: hidden;
-      background-color:  #beb562;
+      background-color:  var(--main-bg-color);
       margin-left: 10px;
     }
     .topnav a {
@@ -321,7 +313,7 @@ color: #beb562;
       padding-top: 50px;
       font-size: 80px;
       font-weight: 400;
-      color: #d4223d;
+      color: var(--main-txt-color);
       line-height: 1;
       margin-bottom: 20px;
       width: auto;
@@ -330,7 +322,7 @@ color: #beb562;
   .next-project{
       font-size: 24px;
       font-weight: 400;
-      color: #d4223d;
+      color: var(--main-txt-color);
       padding-top: 20px;
       padding-bottom: 20px;
       text-decoration: none;
@@ -339,7 +331,7 @@ color: #beb562;
   
   .subhead{
       font-size: 14px;
-      color:#d4223d;
+      color:var(--main-txt-color);
       max-width: 100%;
       padding-top: 20px;
       padding-bottom: 20px;
@@ -350,7 +342,7 @@ color: #beb562;
   }
   
   .line{
-      border-top: 1px solid #d4223d;
+      border-top: 1px solid var(--main-txt-color);
       margin-left: 30px;
       margin-right: 20px;
     }
@@ -368,7 +360,7 @@ color: #beb562;
     .grid-items{
       
       font-size: 14px;
-      color: #d4223d;
+      color: var(--main-txt-color);
       max-width: 120px;
      
     }
@@ -393,7 +385,7 @@ color: #beb562;
       }
     .sub{
       font-size: 32px;
-      color: #d4223d;
+      color: var(--main-txt-color);
       text-align: left;
       margin-left: 10px;
       
@@ -413,11 +405,11 @@ color: #beb562;
         bottom: 0;
       left: 0;
       right: 0;
-      background: #d4223d;
+      background: var(--main-txt-color);
       height: auto;
       width: 100%;
     padding-top: 40px;
-    color: #beb562;
+    color: var(--main-bg-color);
       }
       
       .footer-content {
@@ -444,7 +436,7 @@ color: #beb562;
       
         font-size: 16px;
       
-        color: #beb562;
+        color: var(--main-bg-color);
       }
       ul{
         list-style: none;
@@ -482,7 +474,7 @@ color: #beb562;
       }
       
       .footer-bottom {
-        background: #d4223d;
+        background: var(--main-txt-color);
         padding: 20px;
         padding-bottom: 40px;
         text-align: center;
@@ -493,7 +485,7 @@ color: #beb562;
       }
       
       .footer-bottom p a {
-        color: #beb562;
+        color: var(--main-bg-color);
         font-size: 16px;
         text-decoration: none;
       }
@@ -523,12 +515,12 @@ color: #beb562;
       }
       
       .footer-menu ul li a {
-        color: #beb562;
+        color: var(--main-bg-color);
         text-decoration: none;
       }
       
       .footer-menu ul li a:hover {
-        color: #beb562;
+        color: var(--main-bg-color);
       }
     }
   
