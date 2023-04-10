@@ -14,38 +14,45 @@ body{
 font-weight: 400;
 
 }
+
+  :root {
+    --main-bg-color: #F8F880;
+    --main-txt-color: rgb(223, 81, 117);
+    --main-padding: 15px;
+  }
+  
+
 .topnav {
-    overflow: hidden;
-    background-color: #F8F880;
-    margin-left: 100px;
-  }
+  overflow: hidden;
+  position: sticky;
+  margin-left: 0;
+  z-index: 100;
+  background-color: var(--main-bg-color);
   
-  .topnav a {
-    float: left;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #4a69d1;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: rgb(223, 81, 117);
-    color: rgb(0, 0, 0);
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: var(--main-txt-color);
+  text-align: center;
+  padding: 14px 3%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: var(--main-txt-color);
+  color: var(--main-bg-color);
+}
+
+.topnav a.active {
+  background-color: var(--main-txt-color);
+  color: var(--main-bg-color);
+}
 .page-grid{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto ;
 	margin-left: 100px;
     margin-top: 100px;
     gap: 50px;
@@ -57,7 +64,7 @@ font-weight: 400;
     
 font-weight: 400;
 font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 150%;
     color: rgb(19, 19, 19);
     padding-bottom: 5px;
@@ -73,7 +80,7 @@ font-style: normal;
     max-width: 200px;
     font-weight: 400;
 font-style: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 150%;
     color: rgb(19, 19, 19);
     max-width: 300px;
@@ -84,7 +91,7 @@ font-style: normal;
     font-family: "freight-text-pro", serif;
 font-weight: 400;
 font-style: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 150%;
     color: rgb(223, 81, 117);
    
@@ -98,7 +105,7 @@ font-style: normal;
     max-width: 250px;
     font-weight: 400;
 font-style: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 150%;
     color: rgb(19, 19, 19);
     max-width: 300px;
@@ -116,21 +123,68 @@ font-style: normal;
 
 
 @media (max-width: 960px) {
-  :root {
-    font-size: 9px;
-  }
+  .page-grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+	margin-left: 10%;
+    margin-top: 10%;
+    gap: 20px;
 
-  .project-grid {
-    grid-row-gap: 16rem;
-  }
-  .project-grid a h3 {
-    font-size: 2.5rem;
-    margin-bottom: 1.15rem;
-  }
-  .project-grid a {
-    -ms-grid-column-span: 3;
-    grid-column: span 3;
-  }
+   
+}
+
+.heading{
+    
+font-weight: 400;
+font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(19, 19, 19);
+    padding-bottom: 5px;
+    max-width: 200px;
+
+}
+
+.grid-item1{
+    
+    line-height: 150%;
+    color: rgb(19, 19, 19);
+   
+    max-width: 200px;
+    font-weight: 400;
+font-style: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgb(19, 19, 19);
+    max-width: 300px;
+    padding-top: 10px;
+}
+
+.date{
+    font-family: "freight-text-pro", serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgb(223, 81, 117);
+   
+    max-width: 200px;
+}
+
+
+
+.grid-item2{
+   
+    max-width: 250px;
+    font-weight: 400;
+font-style: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgb(19, 19, 19);
+    max-width: 300px;
+    padding-top: 10px;
+}
+
 }
 
 
@@ -152,19 +206,67 @@ font-style: normal;
       text-align: left;
     }
 
-
     .page-grid{
-        display: grid;
-        grid-template-rows: auto;
-        margin-left: 40px;
-        margin-top: 40px;
-        gap: 50px;
+      display: grid;
+      grid-template-columns: auto ;
+    margin-left: 10%;
+      margin-top: 10%;
+      gap: 10px;
+  
+     
+  }
+  
+  .heading{
+      
+  font-weight: 400;
+  font-style: normal;
+      font-size: 16px;
+      line-height: 150%;
+      color: rgb(19, 19, 19);
+      padding-bottom: 5px;
+      max-width: 300px;
+  
+  }
+  
+  .grid-item1{
+      
+      line-height: 150%;
+      color: rgb(19, 19, 19);
+     
+      max-width: 80%;
+      font-weight: 400;
+  font-style: normal;
+      font-size: 14px;
+      line-height: 150%;
+      color: rgb(19, 19, 19);
+      max-width: 80%;
+      padding-top: 10px;
+  }
+  
+  .date{
+      font-family: "freight-text-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+      font-size: 14px;
+      line-height: 150%;
+      color: rgb(223, 81, 117);
+     
+      max-width: 80%;
+  }
+  
+  
+  
+  .grid-item2{
+     
+    max-width: 80%;
+      font-weight: 400;
+  font-style: normal;
+      font-size: 14px;
+      line-height: 150%;
+      color: rgb(19, 19, 19);
+      max-width: 300px;
+      padding-top: 10px;
+  }
     
-       
-    }
-    :root {
-      font-size: 8px;
-      --padding: 2rem;
-    }
  
 }
