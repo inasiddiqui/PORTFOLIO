@@ -173,8 +173,8 @@ color: var(--main-bg-color);
   }
   
   .footer-head {
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 100;
     text-transform: capitalize;
     line-height: 1;
     padding-left: 8%;

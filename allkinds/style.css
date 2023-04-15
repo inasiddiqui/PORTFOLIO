@@ -77,7 +77,7 @@ body{
   }
   
   div.desc {
-    padding: 14px;
+    padding: 12px;
     text-align: center;
     color: var(--main-txt-color);
   }

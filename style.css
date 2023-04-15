@@ -313,30 +313,35 @@ body{
 
     .topnav {
       overflow: hidden;
-      background-color: #F8F880;
-      margin-left: 10px;
+      background-color: var(--main-bg-color);
+      margin-left: 0;
+      z-index: 100;
+      font-weight: 400;
     }
+    
     .topnav a {
       float: left;
       display: block;
-      color: #000000;
+      color: var(--main-txt-color);
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 14px;
     }
-
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-      
+    
+    .topnav a:hover {
+      background-color: rgb(223, 81, 117);
+      color: var(--main-bg-color);
     }
-
+    
+    .topnav a.active {
+      background-color: var(--main-txt-color);
+      color: var(--main-bg-color);
+    }
     .heading{
       margin-top: 10px;
-      font-size: 42px;
-      font-weight: 400;
+      font-size: 36px;
+      font-weight: 100;
       margin-left: 20px;
       margin-right: 10px;
       color: rgb(223, 81, 117);
@@ -356,7 +361,7 @@ body{
     
       .text a{
         font-size: 24px;
-        color: rgb(202, 77, 108);
+        color: var(--main-txt-color);
         text-align: left;
         text-decoration: none;
       }
@@ -383,6 +388,7 @@ body{
         color:rgb(62, 62, 62);
         text-decoration: underline;
         font-family:  'Homemade Apple', cursive;
+        font-size: 30px;
       }
       #spin:after {
         content:"";
@@ -484,6 +490,7 @@ transition: .3s ease-in-out;
       }
 
     }
+  
   
 
 
