@@ -4,7 +4,7 @@
 
 body{
     background-color: #F8F880;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     margin: 0;
 }
@@ -64,8 +64,8 @@ body{
     margin-top: 50px;
     font-size: 72px;
     font-weight: 100;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 10%;
+    margin-right: 9%;
     
     color: rgb(223, 81, 117);
     line-height: 1.25;
@@ -81,11 +81,12 @@ body{
     margin-right: 9%;
     padding: 0;
 
+
   
   }
 
   .text a{
-    font-size: 36px;
+    font-size: 26px;
     color: var(--main-txt-color);
     text-align: left;
     text-decoration: none;
@@ -103,10 +104,8 @@ body{
 
 
   .line{
-    border-top: 1px solid var(--main-txt-color);
-    
-    
-    
+    border-top: 0.7px solid var(--main-txt-color);
+
   }
   
   #spin {

@@ -1,7 +1,7 @@
 body{
     background-color: var(--main-bg-color);
    
-    font-family: Helvetica, sans-serif;
+    font-family: 'Gilda Display', serif;
   /* font-family: 'EB Garamond'; */
     font-weight: 100;
     margin: 0px;
@@ -95,8 +95,7 @@ body{
     border-top: 1px solid var(--main-txt-color);
     margin-left: 8%;
     margin-right: 8%;
-    
-    
+
   }
   .head{
     font-size: 26px;
